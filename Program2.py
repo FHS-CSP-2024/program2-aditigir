@@ -49,7 +49,9 @@
 ## Problem 1 ##
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
-
+Name =input("What is your name?")
+print(Name)
+print(Name)
 
 
 
@@ -59,7 +61,8 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
-
+Name = input("What is your name?")
+print('!',Name,"!",Name,"!")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -70,21 +73,40 @@
 #   - Last name: Sanders
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
+FirstName = input("What is your first name: ")
+Lastname = input("What is your last name: ")
+Saddress = input("What is your street address: ")
+Caddress = input("Enter the name of the city you live in: ")
+staddress = input("Enter the name of the state you live in: ")
+Paddress = input("What is the postal code of the area you live in: ")
+print()
+print("First Name:", FirstName)
+print("Last Name:", Lastname)
+print("Street address:", Saddress)
+print("City and postal Code:",Caddress,'',staddress,',',Paddress )
 
-## Problem 4 ##
+#print(Name)
+#print(adress)
+
+## Problem ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
-
-
+word1 = input("Enter your first word")
+word2 = input("Enter your second word")
+word3 = input("Enter your third word")
+print(word1,word2,word3)
 ## Problem 5 ##
 #Please write a script that: 
 # - Asks for a name and a year
 # - Prints out a short story that uses that information
+Name= input("Enter your charecters name!")
+Year=input("Enter a year!")
+print(Name, "Was born in",Year,"And invented the flying car. The flying car is worth for 1 million dollers!" )
 # Sample output:
 #Please type in a name: Mary
 #Please type in a year: 1572
 # ----------------------------------------------
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
-#Only Mary could save the village's residents.
+#Only Mary could save the village's residents. 
